@@ -1,0 +1,14 @@
+/sites/*/private/
+/sites/*/assets/
+/sites/*/backups/
+/sites/*/logs/
+/sites/*/webhooks/
+/node_modules/
+/env/
+/logs/
+/__pycache__/
+/.vscode/
+/.git/
+/.DS_Store
+/.env
+

@@ -1,8 +1,8 @@
-# Task Management System
+# Task Master - Task Management System
 
 ## Project Overview
 
-This project is a Task Management System built using the Frappe framework.
+Task Master is a Task Management System built using the Frappe framework.
 
 ## Prerequisites
 
@@ -14,11 +14,9 @@ This project is a Task Management System built using the Frappe framework.
 1. **Clone the Repository:**
 
     ```bash
-    git clone <repository_url>
-    cd Task_Management_System
+    git clone https://github.com/Jyothish9988/Task-Master.git
+    cd Task-Master
     ```
-
-    Replace `<repository_url>` with the actual URL of the Git repository.
 
 2. **Install Dependencies:**
 
@@ -29,21 +27,19 @@ This project is a Task Management System built using the Frappe framework.
 3. **Create a New Site:**
 
     ```bash
-    bench new-site <site_name>
+    bench new-site task_master
     ```
-
-    Replace `<site_name>` with the desired name for your site.
 
 4. **Install Frappe App:**
 
     ```bash
-    bench --site <site_name> install-app Task_Management_System
+    bench --site task_master install-app Task_Master
     ```
 
 5. **Migrate the Database:**
 
     ```bash
-    bench --site <site_name> migrate
+    bench --site task_master migrate
     ```
 
 6. **Start the Development Server:**
@@ -73,4 +69,5 @@ This project is a Task Management System built using the Frappe framework.
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
 
